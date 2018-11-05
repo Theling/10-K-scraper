@@ -27,7 +27,7 @@ downloader.download()
 
 scraper = TenKScraper('Item 1A', 'Item 1B')  # scrape text start from Item 1A, and stop by Item 1B
 scraper2 = TenKScraper('Item 7', 'Item 8')
-scraper.scrape('./data/6281/20171122.htm', './data/txt/test.txt')
+scraper.scrape('./data/6281/20171122.htm', './data/txt/test.txt') # make sure ./data/txt exists
 scraper2.scrape('./data/6769/20180223.htm', './data/txt/test2.txt')
  ```
 
