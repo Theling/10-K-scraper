@@ -1,8 +1,9 @@
 # 10-K-scraper
 This script is to download 10-k filing textual data (.htm) through Sec Edgar API, and to scrape specific sections, then save them into .txt file.
 
-# Platform: Python 3.6
-# Dependency: BeautifulSoup
+# Platform & Dependency: 
+* Python 3.6 and standard libraries
+* BeautifulSoup
 # Introduction:
 * <code>TenKDownloader(CIK, start_time, end_time)</code> will return a <code>TenKDownloader</code> object. <code>CIK</code> can be one string or a list of string. Check https://www.sec.gov/Archives/edgar/cik-lookup-data.txt to see the CIKs for companies that you are looking for. Sometimes this argument can be symbol. <code>start_time</code> and <code>end_time</code> are in format <code>%Y%m%d</code>.
   ## Attributes:
