@@ -1,5 +1,6 @@
 # 10-K-scraper
 This script is to download 10-k filing textual data (.htm) through Sec Edgar API, and to scrape specific sections, then save them into .txt file.
+You are welcomed to do modifications on this scripts.
 
 # Platform & Dependency: 
 * Python 3.6 and standard libraries
