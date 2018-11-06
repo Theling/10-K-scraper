@@ -12,6 +12,8 @@ You are welcomed to do modifications on this scripts.
   * <code>download(path='./data')</code> will download coresponding 10-k filing in <code>./data/\<CIK\>/date.htm</code>. Implementation of this function is to use __BeautifulSoup__ to scrape the web page and retrieve the .htm file;
   ### Data
   * <code>all_url</code> is a Python dictionary (key: CIK; value: list of tuple (date, filing url)).
+  
+  
 * <code>TenKScraper(section, next_section)</code> will return a <code>TenKScraper</code> object. <code>section</code> is something like 'item 1', and <code>next_section</code> is where you stop. For example, if you want to scrape section 'item 2', you can create <code>TenKScraper('item 2', 'item 3')</code>.
   ## Attributes:
   ### Method:
